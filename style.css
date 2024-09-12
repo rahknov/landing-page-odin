@@ -34,7 +34,7 @@ p{
 }
 .links ul{
     display: flex;
-    gap: 16px;
+    gap: 20px;
     
 }
 .links a{
@@ -52,6 +52,7 @@ p{
 
 /*First Container*/
 .first-container{
+    flex:1;
     background-color: #1F2937;
     display:flex;
     justify-content: space-around;
@@ -107,6 +108,7 @@ p{
 
 /*Start of Second Container*/
 .second-container{
+    flex:1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,6 +152,7 @@ p{
 /*Start of Third Container*/
 
 .third-container{
+    flex:1;
     background-color: #E5E7EB;
     display: flex;
     align-items: center;
@@ -180,6 +183,7 @@ p{
 /*Start of Fourth Container*/
 
 .fourth-container{
+    flex:1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,7 +195,7 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 100px;
     width: 1000px;
     height: 150px;
     border-radius: 15px;
@@ -201,11 +205,9 @@ p{
 .fourth-main-text{
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: -100px;
 }
 
 .fourth-sub-text{
-
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -215,16 +217,17 @@ p{
     color: #F9FAF8;
     font-size: 16px;
     font-weight: bold;
-    width: 100px;
+    width: 120px;
     height: 30px;
     border-radius: 8px;
-    border: white 1.5px solid;
+    border: white 2px solid;
     margin-top: 20px;
 }
 
 
 /*End of Fourth Container*/
 .footer{
+    flex:1;
     display: flex;
     justify-content: center;
     align-items: center;
